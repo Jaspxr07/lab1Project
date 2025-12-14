@@ -101,6 +101,7 @@ header a {
     padding-bottom: 20px;
     width: 150px;
     text-align: center;
+    font-size: 1.5em;
 }
 
 header img {
@@ -112,5 +113,35 @@ header img {
     padding: 1em;
 }
 .doel img {
-    padding-top: 0;
+    display: flex;
+    margin-top: -5em;
+    width: 100%;
 }
+
+.activiteiten p {
+    padding: 1em;
+}
+
+.activiteiten img {
+    display: flex;
+    margin-top: -5em;
+    width: 100%;
+}
+
+.items  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.items div {
+    text-align: center;
+}
+
+.items div p {
+    margin-top: 0em;
+}
+
+
+    
+    
