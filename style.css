@@ -1,360 +1,409 @@
 body {
-    background-color: #A874D2;
-    color: white;
-    margin: 0;
-    font-family:Atkinson Hyperlegible;
+  background-color: #a874d2;
+  color: white;
+  margin: 0;
+  font-family: Atkinson Hyperlegible;
 }
 h1 {
-    font-size: 3em;
-    text-align: center;
+  font-size: 3em;
+  text-align: center;
 }
 h2 {
-    text-align: center;
-    font-size: 2.5em;
+  text-align: center;
+  font-size: 2.5em;
 }
 .logo {
-    padding-top: 1em;
-    display: flex;
-    padding-left: 1.5em;
+  padding-top: 1em;
+  display: flex;
+  padding-left: 1.5em;
 }
 
-
 nav {
-    background-color: #A874D2;
-    padding-bottom: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+  background-color: #a874d2;
+  padding-bottom: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    display: none;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: none;
 }
 
-
-
 .hamburger {
-    display: inline-block;
-    position: absolute;
-    right: 2em;
-    top: 2em;
-    width: 20px;
-    height: 18px;
-    padding: 0;
-    cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  width: 20px;
+  height: 18px;
+  padding: 0;
+  cursor: pointer;
 }
 
 .hamburger span {
-    position: absolute;
-    height: 3px;
-    background-color: white;
-    width: 100%;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    transform: all 1s ease-in-out;
+  position: absolute;
+  height: 3px;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transform: all 1s ease-in-out;
 }
 
-
 .hamburger span:nth-child(1) {
-    top: 6px;
+  top: 6px;
 }
 
 .hamburger span:nth-child(2) {
-    top: 12px;
+  top: 12px;
 }
 
-#hamburger:checked~.hamburger span:nth-child(1) {
-    opacity: 0;
+#hamburger:checked ~ .hamburger span:nth-child(1) {
+  opacity: 0;
 }
 
-#hamburger:checked~.hamburger span:nth-child(2) {
-    transform: rotate(45deg);
-    top: 6px;
+#hamburger:checked ~ .hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  top: 6px;
 }
 
-#hamburger:checked~.hamburger span:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 6px;
+#hamburger:checked ~ .hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 6px;
 }
 
 .navLinks {
-    transform: none;
+  transform: none;
 }
 
-section div {
-    display: flex;
-    justify-content: space-around;
+.Kernwaarden div {
+  display: flex;
+  justify-content: space-around;
 }
 
 header a {
-    
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-decoration: none;
-    color: white;
-    background-color: #2EBFA5;
-    border-radius: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 150px;
-    text-align: center;
-    font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #2ebfa5;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 header img {
-    display: block;
-    margin: 0 auto;
-}
-
-.doel div {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-}
-.doel img {
-    display: flex;
-    margin-top: -5em;
-    width: 100%;
-}
-
-.activiteiten div {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-}
-
-.activiteiten img {
-    display: flex;
-    margin-top: -5em;
-    width: 100%;
-}
-
-.items  {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-}
-
-.items div {
-    text-align: center;
-}
-
-.items div p {
-    margin-top: 0em;
-}
-
-.notebook {
-    width: 169px;
-}
-
-.vraag {
-    display: flex;
-    flex-direction: column;
-    
-}
-.vraag div {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5em;
-    background-color: #F5F5F5;
-    color: #21272A;
-    border-radius: 20px;
-}
-
-.vraag div p {
-    padding: 1em;
-    margin: 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    margin-top: -1em;
-}
-
-form label input {
-    border: none;
-    border-radius: 10px;
-    height: 2em;
-}
-
-.bericht {
-    height: 8em;
-}
-
-.contact img {
-    display: block;
-    margin: 0 auto;
-}
-    
-.logo1 {
-    display: block;
-    margin: 0 auto;
-}  
-
-footer div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1em;
-}
-
-footer div img {
-    padding: 1em;
-}
-
-footer p {
-    text-align: center;
-}
-form div {
-    display: flex;
-    flex-direction: column;
-}
-.items div img{
   display: block;
   margin: 0 auto;
 }
 
+.doel div {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.doel img {
+  display: flex;
+  margin-top: -5em;
+  width: 100%;
+}
+
+.activiteiten div {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.activiteiten img {
+  display: flex;
+  margin-top: -5em;
+  width: 100%;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.items div {
+  text-align: center;
+}
+
+.items div p {
+  margin-top: 0em;
+}
+
+.notebook {
+  width: 169px;
+}
+
+.vraag {
+  display: flex;
+  flex-direction: column;
+}
+.vraag div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  background-color: #f5f5f5;
+  color: #21272a;
+  border-radius: 20px;
+}
+
+.vraag div p {
+  padding: 1em;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: -1em;
+}
+
+form label input {
+  border: none;
+  border-radius: 10px;
+  height: 2em;
+}
+
+.bericht {
+  height: 8em;
+}
+
+.contact img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo1 {
+  display: block;
+  margin: 0 auto;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+}
+
+footer div img {
+  padding: 1em;
+}
+
+footer p {
+  text-align: center;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+.items div img {
+  display: block;
+  margin: 0 auto;
+}
+.merch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merch h2 {
+  text-align: center;
+}
+
 .contact a {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-decoration: none;
-    color: white;
-    background-color: #2EBFA5;
-    border-radius: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 150px;
-    text-align: center;
-    font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #2ebfa5;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 footer {
-    border-top: 1px solid white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  border-top: 1px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-
 @media (min-width: 768px) {
-    h1 {
-        text-align: left;
-        padding-left: 0.5em;
-        padding-right: 3em;
-        font-size: 4.5em;
-    }
-        header img {
-        display: flex;
-        width: 60%;
-        position: absolute;
-        top: 8em;
-        z-index: -1;
-        right: -5em;
-    }
-    header a {
-        position: absolute;
-        left: 6em;
-        display: inline-block;
-    }
-    .Kernwaarden {
-        position: relative;
-        top: 10em;
-        margin-bottom: 200px;
-    }
-    .doel {
-        
-        display: flex;
-        flex-direction: row;
-    }
-    .doel div {
-        display: flex;
-        flex-direction: column;
-        order: 2;
-        margin: 0;
-    }
-    .doel div p {
-        position: relative;
-        top: -2em;
-        font-size: 1.5em;
-    }
-    .activiteiten {
-        
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 200px;
-    }
-    .activiteiten div {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        position: relative;
-        top: 3em;
-    }
-    .activiteiten div p {
-        position: relative;
-        top: -1em;
-        font-size: 1.5em;
-    }
+  h1 {
+    text-align: left;
+    padding-left: 0.5em;
+    padding-right: 3em;
+    font-size: 4.5em;
+  }
+  header img {
+    display: flex;
+    width: 60%;
+    position: absolute;
+    top: 8em;
+    z-index: -1;
+    right: -5em;
+  }
+  header a {
+    position: absolute;
+    left: 6em;
+    display: inline-block;
+  }
+  .Kernwaarden {
+    position: relative;
+    top: 10em;
+    margin-bottom: 200px;
+  }
+  .doel {
+    display: flex;
+    flex-direction: row;
+  }
+  .doel div {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin: 0;
+  }
+  .doel div p {
+    position: relative;
+    top: -2em;
+    font-size: 1.5em;
+  }
+  .activiteiten {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+  }
+  .activiteiten div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+    top: 3em;
+  }
+  .activiteiten div p {
+    position: relative;
+    top: -1em;
+    font-size: 1.5em;
+  }
 
-    .activiteiten img {
-        display: flex;
-        position: relative;
-    }
-        
-    .merch div img {
-        width: 200%;
-       
-       
-    }
-    .notebook {
-        width: 164px;
-    }
-    .items {
-        display: grid;
-        grid-template-columns: repeat(2 1fr); 
-        padding-right: 17%;
-        
-    }
-    .Vragen {
-        margin-bottom: 5em;
-    }
-    .vraag {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    
-    form div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100;
-    }
-    form div input {
-        width: 100%;
-    }
-    form {
-        display: flex;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .contact a {
-        width: 90%;
-    }
-    .items div p {
-        font-size: 1.5em;
-    }
+  .activiteiten img {
+    display: flex;
+    position: relative;
+  }
 
-    .contact img {
-        width: 70%;
-    }        
+  .merch .items img {
+    width: 220px;
+    max-width: 100%;
+  }
+
+  .notebook {
+    width: 164px;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+
+    gap: 50px;
+  }
+  .Vragen {
+    margin-bottom: 5em;
+  }
+  .vraag {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  form div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100;
+  }
+  form div input {
+    width: 100%;
+  }
+  form {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .contact a {
+    width: 90%;
+  }
+  .items div p {
+    font-size: 1.5em;
+  }
+
+  .contact img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1040px) {
+  header h1 {
+    width: 50%;
+  }
+  header img {
+    display: flex;
+    width: 500px;
+    position: absolute;
+    top: 6em;
+    right: 1em;
+  }
+  header {
+    margin-bottom: 7em;
+  }
+  .Kernwaarden {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10em;
+  }
+  .doel {
+    font-size: 2em;
+  }
+  .activiteiten {
+    font-size: 2em;
+  }
+  .items {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 32px;
+  }
+
+  .items img {
+    max-width: 100%; 
+  height: auto;    
+  display: block;
+  }
+
+  .contact3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;  
+  }
+  .contact2 {
+    height: 500px;
+  } 
 }
