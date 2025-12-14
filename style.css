@@ -121,8 +121,10 @@ header img {
     width: 100%;
 }
 
-.activiteiten p {
+.activiteiten div {
     padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .activiteiten img {
@@ -143,6 +145,10 @@ header img {
 
 .items div p {
     margin-top: 0em;
+}
+
+.notebook {
+    width: 169px;
 }
 
 .vraag {
@@ -211,6 +217,8 @@ footer p {
     text-align: center;
 }
 
+
+
 @media (min-width: 768px) {
     h1 {
         text-align: left;
@@ -234,10 +242,10 @@ footer p {
     .Kernwaarden {
         position: relative;
         top: 10em;
+        margin-bottom: 200px;
     }
     .doel {
-        position: relative;
-        top: 12em;
+        
         display: flex;
         flex-direction: row;
     }
@@ -252,4 +260,41 @@ footer p {
         top: -2em;
         font-size: 1.5em;
     }
+    .activiteiten {
+        
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 200px;
+    }
+    .activiteiten div {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+        top: 3em;
+    }
+    .activiteiten div p {
+        position: relative;
+        top: -1em;
+        font-size: 1.5em;
+    }
+
+    .activiteiten img {
+        display: flex;
+        position: relative;
+    }
+        
+    .merch div img {
+        width: 200%;
+    }
+    .notebook {
+        width: 164px;
+    }
+    .items {
+        display: grid;
+        grid-template-columns: repeat(2 1fr); 
+        
+    }
+   
+
 }
